@@ -1,0 +1,9 @@
+<!--item.wxml-->
+<template name="item">
+  <navigator url="../detail/detail?id={{item.id}}">
+    <view class="ui-list-item ui-pure-item ui-border-b">
+      <view class="ul-item-content ui-nowrap"><text>{{item.name}}</text></view>
+      <view class="ui-item-span"><text>{{item.price}}</text></view>
+    </view>
+  </navigator>
+</template>
